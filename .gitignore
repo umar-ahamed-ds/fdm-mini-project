@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/.venv/
+.venv/
+venv/
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Python model/cache files
+*.pkl
+*.joblib
